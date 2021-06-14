@@ -27,7 +27,7 @@ The aim of this project is to create a API to get news info crowling Hackers New
 
 ## 🧬 Project Structure 🧬
 
-In the root folder you can find the [documentation](../documentation) and the general project configuration.
+In the root folder you can find the [documentation](../Documentation) and the general project configuration.
 The src folder includes the project code.
 
 
