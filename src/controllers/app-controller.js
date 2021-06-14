@@ -1,7 +1,11 @@
 async function getNews(req, res) {
   const { numberOfPages } = req.params;
 
-  res.status(200).send({numberOfPages})
+  try {
+    res.status(200).send({numberOfPages})
+  } catch (error) {
+    res.status(500).send({error: error.message})
+  }
 }
 
 module.exports = {
