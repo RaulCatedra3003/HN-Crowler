@@ -14,5 +14,5 @@ function getPage(page) {
 
 module.exports = {
   setPage: setPage,
-  getPage: getPage
+  getPage: getPage,
 }
