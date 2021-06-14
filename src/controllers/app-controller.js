@@ -12,7 +12,7 @@ async function getNews(req, res) {
       const $ = cheerio.load(response.data);
 
       $('.itemlist .athing').each((_, element) => {
-        const newInfo = {
+        const newsInfo = {
           rank: $(element).find('.title .rank').text().trim(),
           title: $(element).find('.title .storylink').text().trim(),
           url: $(element).find('.title .storylink').attr('href').trim(),
@@ -22,7 +22,7 @@ async function getNews(req, res) {
           comments: parseInt($(element).next().find('.subtext .age').next().next().next().text().trim().split(' ')[0]),
         }
 
-        news.push(newInfo);
+        news.push(newsInfo);
       });
     }
 
