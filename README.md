@@ -51,7 +51,7 @@ your contribution, and push the branch as a pull requests.
 ## Wiki 📖
 
 - You can find more information of how the app works in the
-  [TDR](./documentation/TDR.md) file.
+  [TDR](./Documentation/TDR.md) file.
 
 ## Contributors ✨
 
