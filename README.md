@@ -16,7 +16,7 @@ program.
 _First clone the repository_
 
 ```
-git clone https://github.com/RaulCatedra3003/McFly-Node.git
+git clone https://github.com/RaulCatedra3003/HN-Crowler.git
 ```
 
 _Then run npm install in the base folder_
